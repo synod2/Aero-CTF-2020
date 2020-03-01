@@ -1,6 +1,6 @@
-AeroCTF 2020 - aerofloat
+AeroCTF 2020 - aerofloat writeup
 ---------------
-pwn
+pwn, 100pts
 
 desc 
 ---------------
