@@ -1,4 +1,4 @@
-AeroCTF 2020 - aerofloat writeup
+aerofloat write up
 ---------------
 pwn, 100pts
 

