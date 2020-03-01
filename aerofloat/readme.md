@@ -13,9 +13,9 @@ desc
 files 
 ---------------
 
--challenge 
--libc.so.6(glibc 2.29->ubuntu 19.04)=> 커스텀 라이브러리로 추정 
--ld-linux-x86-64.so.2
+- challenge 
+- libc.so.6(glibc 2.29->ubuntu 19.04)=> 커스텀 라이브러리로 추정 
+- ld-linux-x86-64.so.2
 
 checksec 
 ---------------
